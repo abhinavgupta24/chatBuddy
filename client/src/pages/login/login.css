@@ -1,0 +1,110 @@
+.login{
+    width:100vw;
+    height:100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginWrapper{
+    width: 70%;
+    height:70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.loginLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom:15% ;
+    margin-right: 5%;
+}
+.loginLogo{
+    font-size: 50px;
+    font-weight: 800;
+    color: #1775ee;
+    margin-bottom: 10px;
+}
+.loginDesc{
+    display: flex;
+    font-size:28px;
+}
+.loginRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom:9%;
+}
+.loginBox{
+    height:320px;
+    width:370px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.973);
+    padding:20px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+}
+.loginInput{
+    height:50px;
+    border-radius: 9px;
+    padding-left:15px;
+    font-size: 18px;
+    border:1px solid gray;
+    margin-bottom: 10px;
+}
+.loginInput:focus{
+    outline: none;
+    border:1px solid #086aeb;
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+}
+.loginInput::placeholder{
+    font-weight:lighter ;
+}
+.loginButton{
+    height:50px;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #197bfc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.loginButton:hover{
+    background-color: #086aeb;
+}
+.loginForgot{
+    text-align: center;
+    color: #1775ee;
+    font-size: 15px;
+    font-weight: lighter;
+    cursor: pointer;
+    text-decoration: none;
+    margin:10px 0;
+}
+.loginForgot:hover{
+    text-decoration: underline;
+}
+.loginLine{
+    font-weight: bolder;
+    margin:15px 0;
+}
+.loginRegister-button{
+    height:50px;
+    width:55%;
+    margin: 0px auto;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(5, 199, 5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.loginRegister-button:hover{
+    background-color: rgb(3, 182, 3);
+}
